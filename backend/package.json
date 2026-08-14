@@ -1,0 +1,19 @@
+{
+  "name": "awsugpiura-raffle-dev-backend",
+  "version": "2.0.0",
+  "description": "AWS Lambda backend for AWS UG Piura raffle (multi-raffle dev)",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "echo 'No lint configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.822.0",
+    "@aws-sdk/lib-dynamodb": "^3.822.0",
+    "uuid": "^10.0.0"
+  }
+}

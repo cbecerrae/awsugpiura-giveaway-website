@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and adjust values as needed.
+# Do NOT commit terraform.tfvars to version control.
+
+aws_region   = "us-east-1"
+aws_profile  = "your-aws-profile"
+project_name = "awsugpiura-raffle"
+admin_key    = "YourSecureAdminKey"
+
+# Set to true if you want terraform destroy to delete the bucket even with objects
+force_destroy_bucket = false

@@ -1,0 +1,19 @@
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+terraform/terraform.tfvars
+terraform/crash.log
+terraform/build/
+terraform/.terraform.lock.hcl
+*.tfplan
+
+# Node
+backend/node_modules/
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
